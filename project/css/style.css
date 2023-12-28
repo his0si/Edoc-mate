@@ -16,6 +16,16 @@ a{
   color: inherit;
 }
 
+.header{
+  width: 100%;  /* 부모 요소의 너비와 똑같게 */
+  height:120px;  /* 헤더의 높이 */
+  background-color:rgb(0, 70, 42);
+  font-size: 0;
+}
+.header > div {
+  padding: 30px 30px;
+}
+
 .board_wrap{
   width: 1000px;
   margin: 100px auto;
