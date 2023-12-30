@@ -99,6 +99,9 @@ a{
 .board_list > div.content > div.title{
   width: 80%;
 }
+.line {
+  padding: 10px;
+}
 
 .calender{
   float:left;
