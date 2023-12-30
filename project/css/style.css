@@ -25,6 +25,17 @@ a{
 .header > div {
   padding: 30px 30px;
 }
+.box1 {
+  width: 60px;
+  height: 60px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .board_wrap{
   width: 1000px;
