@@ -13,6 +13,7 @@ a{
   color: inherit;
 }
 
+/* 헤더 */
 .header{
   width: 100%;  /* 부모 요소의 너비와 똑같게 */
   height:120px;  /* 헤더의 높이 */
@@ -23,6 +24,7 @@ a{
   padding: 30px 30px;
 }
 
+/* 배너 */
 .banner{
   padding:20px;
   width:60px;
@@ -33,6 +35,38 @@ a{
   right:100px;
   top:200px;
 }
+.box {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+.box1 {
+  width: 60px;
+  height: 60px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.name1{
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* 공지사항 */
 .announce{
   width: 100%;
   float:right;
@@ -50,12 +84,12 @@ a{
 
 .board_list > div.top{
   padding-bottom: 10px;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   font-size: 20px;
 }
 .board_list > div.content{
   padding: 10px 0;
-  border-bottom: 1px solid #6b6a6a;
+  border-bottom: 1px solid #868383;
   text-align: left;
   font-size: 15px;
 }
